@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace ETicket.Models
+{
+    public class Actor_Moive
+    {
+        public int MovieId { get; set; }
+        public Movie Movie { get; set; }
+
+        public int ActorId { get; set; }
+        public Actor Actor { get; set; }
+    }
+}
